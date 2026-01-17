@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Rian Carneiro - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Rian Carneiro</h1>
+        <nav>
+            <ul>
+                <li id="sobre" 
+                onmouseenter="aumentar('sobre')"
+                onmouseleave="voltar('sobre')"><a href="index.html">Sobre Mim</a></li>
+                
+                <li id="formacao" 
+                onmouseenter="aumentar('formacao')"
+                onmouseleave="voltar('formacao')"><a href="formacao.html">Formação</a></li>
+                
+                <li id="portfolio" 
+                onmouseenter="aumentar('portfolio')"
+                onmouseleave="voltar('portfolio')"><a href="portfolio.html">Portfólio</a></li>
+                
+                <li id="contato" 
+                onmouseenter="aumentar('contato')"
+                onmouseleave="voltar('contato')"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Portfólio</h2>
+                <ul>
+                    <li><a href="https://carneiro1dev.github.io/media-salarial/" target="_blank">
+                        Projeto: Cálculo de Média Salarial</a></li>
+                        <p>Desenvolvido com HTML, CSS e JavaScript, aplicando manipulação do DOM, eventos de mouse e lógica básica de programação.</p>
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rian Carneiro</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rian-carneiro-b07a05182/" target="_blank" rel="noopener noreferrer"  id="linkedin" 
+            onmouseenter="aumentar('linkedin')"
+            onmouseleave="voltar('linkedin')">
+                <img src="img/Linkedin.svg" alt="LinkedIn">
+                <span>Linkedin</span>
+            </a>
+
+            <a href="https://github.com/carneiro1dev" target="_blank" rel="noopener noreferrer"  id="github" 
+            onmouseenter="aumentar('github')"
+            onmouseleave="voltar('github')">
+                <img src="img/Github.svg" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+            
+            <a href="https://www.instagram.com/riancarneiro0?igsh=aGFsMXVhZTR5dnhu&utm_source=qr" target="_blank" rel="noopener noreferrer" id="instagram" 
+            onmouseenter="aumentar('instagram')"
+            onmouseleave="voltar('instagram')">
+                <img src="img/Instagram.svg" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

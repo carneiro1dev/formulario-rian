@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Rian Carneiro - Sobre Mim</title>
+    <link rel="stylesheet" href="style.css"> <!-- Importa o CSS -->
+</head>
+<body>
+
+    <!-- Cabeçalho com menu visível em todas as páginas -->
+    <header>
+        <h1>Rian Carneiro</h1>
+        <nav>
+            <ul>
+                <li id="sobre" 
+                onmouseenter="aumentar('sobre')"
+                onmouseleave="voltar('sobre')"><a href="index.html">Sobre Mim</a></li>
+                
+                <li id="formacao" 
+                onmouseenter="aumentar('formacao')"
+                onmouseleave="voltar('formacao')"><a href="formacao.html">Formação</a></li>
+                
+                <li id="portfolio" 
+                onmouseenter="aumentar('portfolio')"
+                onmouseleave="voltar('portfolio')"><a href="portfolio.html">Portfólio</a></li>
+                
+                <li id="contato" 
+                onmouseenter="aumentar('contato')"
+                onmouseleave="voltar('contato')"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Sou Rian Carneiro, tenho 24 anos e estou em transição de carreira para a área de Tecnologia da Informação, cursando Análise e Desenvolvimento de Sistemas. Embora seja novo na área, venho me dedicando intensamente aos estudos e à prática de desenvolvimento, buscando construir uma base sólida em programação e desenvolvimento web.<br>
+
+            <p>Atualmente estudo HTML, CSS, JavaScript e estou iniciando em Python, sempre focado em projetos práticos que me ajudem a evoluir. Venho de uma área diferente da tecnologia, o que me proporcionou habilidades importantes como responsabilidade, organização e trabalho em equipe. Busco minha primeira oportunidade na área para aprender, crescer e contribuir com dedicação.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Rian Carneiro</p>
+
+        <div class="social">           
+            <a href="https://www.linkedin.com/in/rian-carneiro-b07a05182/" target="_blank" rel="noopener noreferrer"  id="linkedin" 
+            onmouseenter="aumentar('linkedin')"
+            onmouseleave="voltar('linkedin')">
+                <img src="img/Linkedin.svg" alt="LinkedIn">
+                <span>Linkedin</span>
+            </a>
+
+            <a href="https://github.com/carneiro1dev" target="_blank" rel="noopener noreferrer"  id="github" 
+            onmouseenter="aumentar('github')"
+            onmouseleave="voltar('github')">
+                <img src="img/Github.svg" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+            
+            <a href="https://www.instagram.com/riancarneiro0?igsh=aGFsMXVhZTR5dnhu&utm_source=qr" target="_blank" rel="noopener noreferrer" id="instagram" 
+            onmouseenter="aumentar('instagram')"
+            onmouseleave="voltar('instagram')">
+                <img src="img/Instagram.svg" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

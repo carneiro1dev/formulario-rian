@@ -1,0 +1,120 @@
+/* Configurações iniciais da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho com fundo escuro e menu */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Menu de navegação centralizado */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Links do menu */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Conteúdo principal da página */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé simples */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /*espaço entre os ícones */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+footer .social a {
+    text-decoration: none;
+    color: #fff; /* cor do texto */
+    font-size: 12px; /* tamanho da letra */
+    display: flex;
+    flex-direction: column; /* ícone em cima, texto embaixo */
+    align-items: center;
+}
+
+footer .social img {
+    width: 35px;
+    height: auto;
+}
+
+.status-msg {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.status-msg.sucesso {
+    display: block;
+    color: green;
+}
+
+.status-msg.erro {
+    display: block;
+    color: red;
+}
