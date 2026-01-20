@@ -1,4 +1,4 @@
-# PROJETO PORTFÓLIO
+# Projeto Portfólio
 
 ## Visão Geral
 
