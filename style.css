@@ -1,9 +1,11 @@
-/* Configurações iniciais da página */
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     background: #f4f4f4;
     color: #333;
 }
@@ -12,7 +14,12 @@ body {
 header {
     background-color: #222;
     color: #fff;
-    padding: 15px 0;
+}
+
+header .container{
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 20px;
     text-align: center;
 }
 
@@ -24,6 +31,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
 
 /* Links do menu */
